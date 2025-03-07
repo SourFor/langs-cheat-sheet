@@ -27,3 +27,7 @@ pass dir/pass
 ```sh
 pass edit dir/pass
 ```
+
+## doc
+
+https://manpages.ubuntu.com/manpages/trusty/man1/pass.1.html
