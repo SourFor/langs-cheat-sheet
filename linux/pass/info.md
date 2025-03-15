@@ -8,7 +8,7 @@ gpg --generate-key
 pass init <email from pgp>
 ```
 
-## pass
+## use
 
 ### create
 
