@@ -12,3 +12,9 @@ For example, suppose the file name in the patch file is /gnu/src/emacs/etc/NEWS.
 ```
 patch -p6 < last.patch
 ```
+
+## rsync
+
+```sh
+rsync -a --exclude='.git' источник/ цель/
+```
