@@ -1,4 +1,4 @@
-```
+```sh
 sudo apt-get install python3.9-venv
 mkdir my-project
 cd my-project

@@ -6,16 +6,22 @@ import string
 
 
 def get_alphabet_digits_list():
+ 
+    # alphabet_digits_list = list(string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation)
+    # alphabet_digits_list.remove('"')
+    # alphabet_digits_list.remove('\\')
+    # alphabet_digits_list.remove('}')
+    # alphabet_digits_list.remove('{')
+    # alphabet_digits_list.remove('\'')
+    # alphabet_digits_list.remove('`')
 
-    alphabet_digits_list = list(string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation)
-    alphabet_digits_list.remove('"')
-    alphabet_digits_list.remove('\\')
-    alphabet_digits_list.remove('}')
-    alphabet_digits_list.remove('{')
-    alphabet_digits_list.remove('\'')
-    alphabet_digits_list.remove('`')
 
-    return alphabet_digits_list
+# print(alphabet_digits_list)
+
+
+    airflow_digits = "#!-_.:/()"
+
+    return list(string.ascii_lowercase + string.ascii_uppercase + string.digits + airflow_digits)
 
 alphabet_digits_list = get_alphabet_digits_list()
 
